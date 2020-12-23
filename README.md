@@ -2,9 +2,12 @@
 
 ## Overview
 > Tampilan desktop saya
-[light-blue](http://link.url/yang-dituju)
-[dark-pink](http://link.url/yang-dituju)
-[glow-dark](http://link.url/yang-dituju)
+
+[light-blue](overview/light-blue.png)
+
+[dark-pink](https://github.com/technisekai/dotfiles/blob/master/overview/dark-pink.png)
+
+[glow-dark](https://github.com/technisekai/dotfiles/blob/master/overview/glow-dark.png)
 
 ## Requirements
 >Software yang dibutuhkan
