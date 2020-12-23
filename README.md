@@ -3,11 +3,11 @@
 ## Overview
 > Tampilan desktop saya
 
-[light-blue](overview/light-blue.png)
+![light-blue](overview/light-blue.png)
 
-[dark-pink](https://github.com/technisekai/dotfiles/blob/master/overview/dark-pink.png)
+![dark-pink](https://github.com/technisekai/dotfiles/blob/master/overview/dark-pink.png)
 
-[glow-dark](https://github.com/technisekai/dotfiles/blob/master/overview/glow-dark.png)
+![glow-dark](https://github.com/technisekai/dotfiles/blob/master/overview/glow-dark.png)
 
 ## Requirements
 >Software yang dibutuhkan
