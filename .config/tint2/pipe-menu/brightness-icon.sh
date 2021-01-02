@@ -16,4 +16,4 @@ perc=$((val*100/255))
 
 #echo ~/.config/tint2/icon/bri-medium.svg
 echo ~/.config/tint2/dark-icon-pink/brightness.png
-echo "$perc %"
+#echo "$perc %"

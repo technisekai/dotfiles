@@ -18,22 +18,15 @@
 #xfce-mcs-manager &
 #xfce4-power-manager &
 
-#Panel
-tint2 -c ~/.config/tint2/dark-panel.tint2rc &
-#tint2 -c ~/.config/tint2/light-panel.tint2rc &
-
-#Wallpaper
-feh --bg-scale ~/Pictures/anime_dark.jpeg &
-#feh --bg-scale ~/Pictures/anime_light.jpeg &
+#mode
+~/.config/openbox/dark.sh
+#~/.config/openbox/light.sh
 
 #SOLVE thunar
 #lxpolkit &
 
 #Tap to click
 #synclient TapButton1=1 &
-
-#Notification
-#dunst &
 
 #Compton
 picom &

@@ -124,7 +124,7 @@ border_color_pressed = #000000 0
 
 #-------------------------------------
 # Panel
-panel_items = PTSEE:EC
+panel_items = PTSEEEE:EC
 panel_size = 100% 38
 panel_margin = 0 0
 panel_padding = 5 4 4
@@ -259,6 +259,12 @@ execp_centered = 1
 execp_icon_w = 15
 execp_icon_h = 15
 
+execp = new
+execp_command = echo $(amixer get Master | grep '%' | head -n 1 | cut -d '[' -f 2 | cut -d '%' -f 1)" %"
+execp_interval = 1
+execp_font = mplus Nerd Font Mono Bold 8
+execp_font_color = #BBE7F1 100
+
 # Executor 2
 execp = new
 execp_command = bash /home/nonam3/.config/tint2/pipe-menu/temperature.sh -1
@@ -279,6 +285,12 @@ execp_background_id =
 execp_centered = 1
 execp_icon_w = 15
 execp_icon_h = 15
+
+execp = new
+execp_command = sensors | grep -A 2 'k10temp-pci-00c3' | grep 'temp1' | head -n 1 | cut -d '+' -f 2 | cut -d '(' -f 1
+execp_interval = 1
+execp_font = mplus Nerd Font Mono Bold 8
+execp_font_color = #BBE7F1 100
 
 # Executor 3
 execp = new
@@ -313,7 +325,7 @@ button_font_color = #000000 100
 button_padding = 4 4
 button_background_id = 
 button_centered = 1
-button_max_icon_size = 40
+button_max_icon_size = 50
 
 #-------------------------------------
 # Tooltip
