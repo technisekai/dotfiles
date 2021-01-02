@@ -29,3 +29,6 @@ Pindah semua direktori ke home and enjoy
 Shift + L = light theme
 
 Shift + D = Dark theme
+
+## NOTE
+Beberapa scrpt bash seperti temperatire, volume, brightness mungkin perlu dilakukan penyesuaian.
