@@ -3,14 +3,14 @@
 ## Overview
 > Tampilan desktop saya
 
-![light-blue](overview/light-blue.png)
+![light](overview/light.png)
 
-![dark-pink](https://github.com/technisekai/dotfiles/blob/master/overview/dark-pink.png)
+![dark](overview/dark.png)
 
-![glow-dark](https://github.com/technisekai/dotfiles/blob/master/overview/glow-dark.png)
 
 ## Requirements
 >Software yang dibutuhkan
+
 Arch based
 ```
 pacman -S openbox tint2 feh  picom obconf lxappearance 
@@ -24,12 +24,8 @@ apt-get install openbox tint2 feh  picom obconf lxappearance
 ## How
 > Cara penggunaan
 
-jalankan perintah sudo ./install.sh atau pindah semua folder ke dir home (kecuali wallpaper pindah ke ~/Pictures) sisa filenya pindah ke home
-
-gunakan
+Pindah semua direktori ke home and enjoy
 
 Shift + L = light theme
 
 Shift + D = Dark theme
-
-Shift + G = Glow theme
