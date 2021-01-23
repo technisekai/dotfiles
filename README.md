@@ -1,15 +1,15 @@
 # dotfiles
 
 ## Overview
-> Tampilan desktop saya
 
+### Light
 ![light](overview/light.png)
 
+### Dark
 ![dark](overview/dark.png)
 
 
 ## Requirements
->Software yang dibutuhkan
 
 Arch based
 ```
@@ -21,14 +21,13 @@ Debian based
 apt-get install openbox tint2 feh  picom obconf lxappearance 
 ```
 
-## How
-> Cara penggunaan
+## How to use
 
-Pindah semua direktori ke home and enjoy
+Just move all folders to you $HOME and enjoy
 
-Shift + L = light theme
+Shift + L = light theme 
 
 Shift + D = Dark theme
 
 ## NOTE
-Beberapa scrpt bash seperti temperatire, volume, brightness mungkin perlu dilakukan penyesuaian.
+Some script like temperature, volume, dunst maybe need customize in your PC.
