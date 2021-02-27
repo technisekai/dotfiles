@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Main Menu">
+		<item icon="" label="File Manager">
+			<action name="Execute">
+				<execute>thunar</execute>
+			</action>
+		</item>
+		<item label="Music Player">
+			<action name="Execute">
+				<execute>audacious</execute>
+			</action>
+		</item>
+		<item label="Terminal">
+			<action name="Execute">
+				<execute>urxvt</execute>
+			</action>
+		</item>
+		<item icon="" label="Web Browser">
+			<action name="Execute">
+				<execute>firefox-esr</execute>
+			</action>
+		</item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<separator/>
+		<menu id="root-menu-0" label="Accesories">
+			<item label="Calculator">
+				<action name="Execute">
+					<execute>gcaltool</execute>
+				</action>
+			</item>
+			<item label="Text Editor">
+				<action name="Execute">
+					<execute>atom</execute>
+				</action>
+			</item>
+			<item label="Terminal">
+				<action name="Execute">
+					<execute>urxvt</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-1" label="Education">
+			<item label="Qur-an Study">
+				<action name="Execute">
+					<execute>zekr</execute>
+				</action>
+			</item>
+			<item label="Virtual Globe">
+				<action name="Execute">
+					<execute>marble</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-2" label="Games">
+			<item label="AisleRiot">
+				<action name="Execute">
+					<execute>/usr/games/sol</execute>
+				</action>
+			</item>
+			<item label="FreeCell">
+				<action name="Execute">
+					<execute>/usr/games/sol --freecell</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-3" label="Graphics">
+			<item label="Comic Reader">
+				<action name="Execute">
+					<execute>comix</execute>
+				</action>
+			</item>
+			<item label="Document Viewer">
+				<action name="Execute">
+					<execute>evince</execute>
+				</action>
+			</item>
+			<item label="Image Editor">
+				<action name="Execute">
+					<execute>gimp</execute>
+				</action>
+			</item>
+			<item label="Photo Album">
+				<action name="Execute">
+					<execute>shotwell</execute>
+				</action>
+			</item>
+			<item label="SVG Editor">
+				<action name="Execute">
+					<execute>inkscape</execute>
+				</action>
+			</item>
+			<item label="Simple Scan">
+				<action name="Execute">
+					<execute>simple-scan</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-4" label="Internet">
+			<item label="BiTorrent Client">
+				<action name="Execute">
+					<execute>transmission-gtk</execute>
+				</action>
+			</item>
+			<item label="Downloader">
+				<action name="Execute">
+					<execute>flareget</execute>
+				</action>
+			</item>
+			<item label="IRC Chat">
+				<action name="Execute">
+					<execute>xchat</execute>
+				</action>
+			</item>
+			<item label="RSS Reader">
+				<action name="Execute">
+					<execute>liferea</execute>
+				</action>
+			</item>
+			<item label="Web Browser">
+				<action name="Execute">
+					<execute>midori</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-5" label="Office">
+			<item label="Libreoffice Writer">
+				<action name="Execute">
+					<execute>libreoffice --writer</execute>
+				</action>
+			</item>
+			<item label="Formula">
+				<action name="Execute">
+					<execute>libreoffice --math</execute>
+				</action>
+			</item>
+			<item label="Kamus">
+				<action name="Execute">
+					<execute>gkamus</execute>
+				</action>
+			</item>
+			<item label="PDF Shuffler">
+				<action name="Execute">
+					<execute>pdfshuffler</execute>
+				</action>
+			</item>
+			<item label="Presentation">
+				<action name="Execute">
+					<execute>libreoffice --impress</execute>
+				</action>
+			</item>
+			<item label="Libreoffice Calc">
+				<action name="Execute">
+					<execute>libreoffice --calc</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-6" label="Programming">
+			<item label="Bluefish Editor">
+				<action name="Execute">
+					<execute>bluefish</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-7" label="Sound &amp; Video">
+			<item label="Audacious">
+				<action name="Execute">
+					<execute>audacious</execute>
+				</action>
+			</item>
+			<item label="Ex Falso">
+				<action name="Execute">
+					<execute>exfalso</execute>
+				</action>
+			</item>
+			<item label="Movie Player">
+				<action name="Execute">
+					<execute>smplayer</execute>
+				</action>
+			</item>
+			<item label="Rakarrack">
+				<action name="Execute">
+					<execute>rakarrack</execute>
+				</action>
+			</item>
+			<item label="Sound Recorder">
+				<action name="Execute">
+					<execute>gnome-sound-recorder</execute>
+				</action>
+			</item>
+			<item label="V L C">
+				<action name="Execute">
+					<execute>/usr/bin/vlc</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="root-menu-8" label="System Tools">
+			<item label="BleachBit">
+				<action name="Execute">
+					<execute>bleachbit</execute>
+				</action>
+			</item>
+		</menu>
+		<separator/>
+		<menu id="root-menu-9" label="Openbox">
+			<item label="Change Wallpaper">
+				<action name="Execute">
+					<execute>nitrogen</execute>
+				</action>
+			</item>
+			<item label="Menu Editor">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Openbox Settings">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Look and Feel">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="Reconfigure">
+			<action name="Reconfigure"/>
+		</item>
+		<item label="Reboot">
+			<action name="Execute">
+				<execute>systemctl reboot</execute>
+			</action>
+		</item>
+		<item label="shutdown">
+			<action name="Execute">
+				<execute>systemctl poweroff</execute>
+			</action>
+		</item>
+	</menu>
+</openbox_menu>
