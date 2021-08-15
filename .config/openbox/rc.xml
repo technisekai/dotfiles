@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>main-theme</name>
+    <name>lamps-in-the-cafe</name>
     <titleLayout>IMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -54,28 +54,28 @@
       S: shade (roll up/down)
       D: omnipresent (on all desktops).
   -->
-    <cornerRadius menu="no">4</cornerRadius>
+    <cornerRadius menu="no">no</cornerRadius>
     <animateIconify>no</animateIconify>
     <font place="ActiveWindow">
-      <name>Cantarell</name>
-      <size>10</size>
+      <name>Iosevka</name>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Italic</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Roboto Condensed, Light</name>
-      <size>9</size>
+      <name>Iosevka Italic Condensed</name>
+      <size>8</size>
       <!-- font size in points -->
       <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>Italic</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>Roboto Condensed,</name>
+      <name>Roboto Condensed</name>
       <size>9</size>
       <!-- font size in points -->
       <weight>Bold</weight>
@@ -93,10 +93,10 @@
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Noto Serif Tibetan Semi-Bold</name>
+      <name>mplus Nerd Font Mono</name>
       <size>9</size>
       <!-- font size in points -->
-      <weight>Normal</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
@@ -155,7 +155,7 @@
      cases. -->
   <margins>
     <top>5</top>
-    <bottom>48</bottom>
+    <bottom>39</bottom>
     <left>5</left>
     <right>5</right>
   </margins>
@@ -274,6 +274,12 @@
         <command>dunstify -i camera -r 2593 -u normal "Take Screenshot" "Select the area"</command>
       </action>
     </keybind>
+    <!-- Keybindings for menu -->
+    <keybind key="Super_L">
+      <action name="Execute">
+        <command>bash ~/.config/rofi/launchers/ribbon/launcher.sh</command>
+      </action>
+    </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -372,19 +378,19 @@
       </action>
     </keybind>
     <!-- theme mode -->
-    <keybind key="S-d">
+    <keybind key="C-S-d">
       <action name="Execute">
         <command>bash ~/.config/openbox/dark.sh</command>
       </action>
     </keybind>
-    <keybind key="S-l">
+    <keybind key="C-S-l">
       <action name="Execute">
         <command>bash ~/.config/openbox/light.sh</command>
       </action>
     </keybind>
-    <keybind key="S-g">
+    <keybind key="C-S-n">
       <action name="Execute">
-        <command>bash ~/.config/openbox/glow.sh</command>
+        <command>bash ~/.config/openbox/new-rice.sh</command>
       </action>
     </keybind>
   </keyboard>
