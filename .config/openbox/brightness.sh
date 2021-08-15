@@ -12,7 +12,7 @@ function send_notification {
 	perc=$((val*100/255))
     # bar=$(seq -s "─" $(($perc / 5)) | sed 's/[0-9]//g')
     # Send the notification
-    dunstify -i brightness -r 2593 -u normal "Brightness $perc%"
+    dunstify -i brightness -r 2593 -u normal "Bright: $perc%"
 }
 
 case $1 in

@@ -19,8 +19,9 @@
 #xfce4-power-manager &
 
 #mode
-~/.config/openbox/dark.sh
+#~/.config/openbox/dark.sh
 #~/.config/openbox/light.sh
+~/.config/openbox/new-rice.sh
 
 #SOLVE thunar
 #lxpolkit &
@@ -33,3 +34,6 @@ picom &
 
 #xrdb
 xrdb ~/.Xresources
+
+#Pulseaudio
+#pulseaudio &
