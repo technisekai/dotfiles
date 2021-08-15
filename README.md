@@ -1,33 +1,17 @@
-# dotfiles
+<p align="center">
+  <img src="header.png" align="tcenter">
+</p>
 
-## Overview
+### :notebook_with_decorative_cover: Description
+My linux setup configuration
 
-### Light
-![light](overview/light.png)
+## :eyes: Overview
 
-### Dark
-![dark](overview/dark.png)
+- ### **Morning Castle**
+![light](Overview/morning-castle.png)
 
+- ### **Moon in The Night**
+![dark](Overview/moon-in-the-night.png)
 
-## Requirements
-
-Arch based
-```
-pacman -S openbox tint2 feh  picom obconf lxappearance 
-```
-
-Debian based
-```
-apt-get install openbox tint2 feh  picom obconf lxappearance 
-```
-
-## How to use
-
-Just move all folders to you $HOME and enjoy
-
-Shift + L = light theme 
-
-Shift + D = Dark theme
-
-## NOTE
-Some script like temperature, volume, dunst maybe need customize in your PC.
+- ### **Lamps in The Cafe**
+![vintage](Overview/lamps-in-the-cafe.jpg)
